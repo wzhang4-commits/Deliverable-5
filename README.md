@@ -143,4 +143,4 @@ UMBC Lost & Found Team
 IS 436 – Structured System Analysis and Design
 
 ## Deliverable
-Deliverable 5 – Closing: User Interface Design, Program Design, and System Implementation
+Deliverable 5 – Closing: User Interface Design, Program Design, and System Implementation.
