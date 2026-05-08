@@ -139,7 +139,7 @@ https://hub.docker.com/r/wzhang4umbc/umbc-lost-found
 ## Docker Pull Command
 
 ```bash
-docker pull wzhang4umbc/umbc-lost-found:latest
+docker pull dockerhubusername/umbc-lost-found:latest
 ```
 
 ---
