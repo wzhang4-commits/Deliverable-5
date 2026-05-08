@@ -22,4 +22,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: wzhang4umbc/umbc-lost-found:${{ github.run_number }}
+          tags: |
+            wzhang4umbc/umbc-lost-found:${{ github.run_number }}
+            wzhang4umbc/umbc-lost-found:latest
