@@ -73,5 +73,9 @@ INSERT INTO locations (location_name, building_code, description) VALUES
 
 -- Insert sample user
 INSERT INTO users (username, email, password_hash) VALUES
-('student1', 'student1@umbc.edu', 'hash_placeholder')
+('Wilson Zhang', 'wzhang4@umbc.edu', 'hash_placeholder'),
+('Michael Thomas', 'ae10220@umbc.edu', 'hash_placeholder'),
+('Mete Gorgulu', 'mete1@umbc.edu', 'hash_placeholder'),
+('Therisa Phan', 'tphan7@umbc.edu', 'hash_placeholder'),
+('Justin Medina', 'jmedina5@umbc.edu', 'hash_placeholder')
 ON CONFLICT DO NOTHING;
