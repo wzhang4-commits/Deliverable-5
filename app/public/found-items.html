@@ -19,6 +19,20 @@
   <main class="container">
     <h1>Log Found Item</h1>
 
+    <div class="form-box" style="margin-bottom: 20px;">
+      <h2>Location ID Reference</h2>
+      <p>Use the location ID below when logging a found item:</p>
+      <ul>
+        <li><strong>1</strong> – Library</li>
+        <li><strong>2</strong> – Student Center</li>
+        <li><strong>3</strong> – Administration Building</li>
+        <li><strong>4</strong> – Science Complex</li>
+        <li><strong>5</strong> – Parking Lot A</li>
+        <li><strong>6</strong> – Parking Lot B</li>
+        <li><strong>7</strong> – Athletic Center</li>
+      </ul>
+    </div>
+
     <form class="form-box" action="/submit-found" method="POST">
       <label>Logged By User ID</label>
       <input type="number" name="logged_by_user_id" placeholder="Example: 2" required />
